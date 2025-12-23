@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+    <canvas id="graphCanvas"></canvas>
+    
+    <div id="ui">
+        <h2>GRAPH SIMULATION</h2>
+        <div class="input-group">
+            <label>ENTER EQUATION: y = f(x)</label>
+            <input type="text" id="funcInput" value="sin(x) * x" placeholder="e.g. x^2">
+        </div>
+        <div class="help">
+            <strong>Supported Functions:</strong><br>
+            sin, cos, tan, sqrt, abs, log, x^2...<br>
+            <br>
+            <strong>Navigation:</strong><br>
+            • Drag to Pan<br>
+            • Scroll to Zoom
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
